@@ -1,0 +1,8 @@
+<!--pages/maps/maps.wxml-->
+<view class='container'>
+<scroll-view>
+<text>scroll</text>
+</scroll-view>
+<map class='maps' latitude='{{lat}}' longitude='{{lon}}'></map>
+</view>
+

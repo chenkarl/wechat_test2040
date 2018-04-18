@@ -1,0 +1,4 @@
+/* pages/maps/maps.wxss */
+.maps{
+  height: 800rpx
+}

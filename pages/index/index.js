@@ -9,6 +9,9 @@ Page({
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
+  clickMe:function(){
+    this.setData({motto:"had click"})
+  },
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
